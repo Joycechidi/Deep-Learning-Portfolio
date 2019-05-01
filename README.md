@@ -1,2 +1,2 @@
 # Deep-Learning-
-Convoluted and Artificial Neural Network Projects
+Convolutional and Artificial Neural Network Projects
