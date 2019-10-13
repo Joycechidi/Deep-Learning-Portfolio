@@ -1,0 +1,14 @@
+# Learning PyTorch by Chidinma
+
+While learning how to use PyTorch for building Deep Learning projects, I will document my progress in this repository.
+
+## Repository Content
+* Tensors in PyTorch
+* Neural Networks in PyTorch
+* Training Neura Networks
+* Project Exercise
+* Inference and Validation
+* Saving and Loading Models
+* Loading Image Data
+* Transfer Learning
+
