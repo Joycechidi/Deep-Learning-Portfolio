@@ -1,3 +1,5 @@
-# Deep Learning ND First Project
-In this project I will be predicting bike sharing patterns using artificial neural network written in python.
-I used only numpy and all codes are written in python from scratch without any 3rd-party packages used
+## Deep Learning ND First Project
+In this project, I built a neural network which I used to predict daily bike rental ridership pattern.
+The neural network is written in python.
+
+I used only numpy without PyTorch or TensorFlow and all codes are written in python from scratch without any 3rd-party packages used
