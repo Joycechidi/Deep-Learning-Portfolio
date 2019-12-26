@@ -52,6 +52,7 @@ A valid word dictionary was constructed.
 
 ## Results
 The model was deployed and the Lambda / API Gateway integration is complete so that the web app works (make sure to include your modified index.html).
+The 2 images (positive_review.png and negative_review.png) in this repo are results of two different sentences entered into the web app which returned correct predictions
 
 ## Licensing, Author and Acknowledgement
 Project author: Joyce Chidiadi
