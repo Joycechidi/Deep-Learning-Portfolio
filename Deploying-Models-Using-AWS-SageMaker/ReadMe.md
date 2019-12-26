@@ -33,6 +33,7 @@ os
 
 ## Summary of steps taken in the project
 1. Load the data for the project which is the movie reviews
+
 2. Prepare and preprocess the data. To process the data, five major steps are taken
 Get the texts out of the input review which could contatin hmtl tag so the tags are removed.
 The texts are converted to lower case and all characters that are not alphabets nor digits with spaces.
@@ -40,15 +41,16 @@ Each word in the texts was split into a list and separated by space
 All stopwords such as a, an, this, that, the, etc. were removed from the list
 The words were then stemmed in the list which means converting words like eating/eat to eat.
 A valid word dictionary was constructed.
-3. Build and Train the PyTorch Model in the train.py script and the SageMakerProject.ipynb 
-4.An XGBoost model was also trained and then compared with the Rceurrent Neural Network(RNN) model. The RNN was trained using the SageMaker's supported PyTorch functionality.
-5.
-6.
-7. 
-8.
+3. Build and Train the PyTorch Model in the train.py script and the SageMakerProject.ipynb
 
-
+4. An XGBoost model was also trained and then compared with the Rceurrent Neural Network(RNN) model. The RNN was trained using the SageMaker's supported PyTorch functionality.
+5. **AWS SageMaker SetUp**, I created a notebook instance using a notebook type: __ml.p2.xlarge__
+6. Chose the S3 bucket was set up in the notebook instance for training data and model artifacts.
+7. I requested for an increase in the ml.p2.xlarge instance because the default value was zero.
+8. Lambda function was created and the endpoint value from the training process was updated on the lambda function in SageMaker.
+9. A RESTAPI was created in the AWS console to for the web application url. The created url was updated in the index.html file.
 
 ## Results
+The model was deployed and the Lambda / API Gateway integration is complete so that the web app works (make sure to include your modified index.html).
 
 ## Licensing, Author and Acknowledgement
