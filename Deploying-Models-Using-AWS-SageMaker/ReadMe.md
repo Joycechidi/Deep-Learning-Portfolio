@@ -54,3 +54,5 @@ A valid word dictionary was constructed.
 The model was deployed and the Lambda / API Gateway integration is complete so that the web app works (make sure to include your modified index.html).
 
 ## Licensing, Author and Acknowledgement
+Project author: Joyce Chidiadi
+Acknowledgement: Udacity code platform
