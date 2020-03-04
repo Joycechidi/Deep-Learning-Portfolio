@@ -1,6 +1,6 @@
 # Table of Content 
-1. Introduction 
-2.Installations
+1. Introduction
+2. Installations
 3. Description of files in this repo
 4. Summary of steps taken in the project
 5. Results
